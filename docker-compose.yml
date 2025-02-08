@@ -1,0 +1,29 @@
+version: "3.8"
+
+# Docker Compose documentation: https://docs.docker.com/compose/compose-file/
+services:
+  frontend:
+    build: 
+      context: https://github.com/rafxrad/cidade_dorme_front.git
+      dockerfile: Dockerfile
+    ports:
+      - "5073:80"
+    depends_on:
+      - backend
+    networks:
+      - cidade_dorme_network
+
+  backend:
+    build: 
+      context: https://github.com/rafxrad/cidade_dorme_back.git
+      dockerfile: CidadeDorme/Dockerfile 
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    ports:
+      - "8080:8080"
+    networks:
+      - cidade_dorme_network
+
+networks:
+  cidade_dorme_network:
+    driver: bridge
