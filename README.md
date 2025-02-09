@@ -53,6 +53,10 @@ O backend estará disponível na porta 8080:
 ```
 http://localhost:8080
 ```
+Você pode acessar o swagger da documentação da api:
+```
+http://localhost:8080/swagger/index.html
+```
 
 ## Parar e Remover os Contêineres
 Para parar e remover os contêineres criados:
