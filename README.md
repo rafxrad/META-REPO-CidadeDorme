@@ -30,15 +30,11 @@ O arquivo `docker-compose.yml` define dois serviços principais:
 
 ## Passos para Deploy
 
-### 1. Clonar os repositórios (Opcional se usar o Docker Compose remoto)
+### 1. Clonar o repositório
 Se desejar clonar os repositórios manualmente:
 ```sh
-git clone https://github.com/rafxrad/cidade_dorme_front.git
-cd cidade_dorme_front
-```
-```sh
-git clone https://github.com/rafxrad/cidade_dorme_back.git
-cd cidade_dorme_back
+git clone https://github.com/rafxrad/META-REPO-CidadeDorme/
+cd META-REPO-CidadeDorme/
 ```
 
 ### 2. Executar o Docker Compose
