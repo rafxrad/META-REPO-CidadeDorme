@@ -31,7 +31,7 @@ O arquivo `docker-compose.yml` define dois serviços principais:
 ## Passos para Deploy
 
 ### 1. Clonar o repositório
-Se desejar clonar os repositórios manualmente:
+Clone o repositório onde se encontra o arquivo docker compose do jogo:
 ```sh
 git clone https://github.com/rafxrad/META-REPO-CidadeDorme/
 cd META-REPO-CidadeDorme/
