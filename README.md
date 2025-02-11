@@ -5,9 +5,9 @@
 Cidade Dorme é um jogo baseado no clássico jogo de tabuleiro "Máfia" ou "Cidade Dorme", no qual os jogadores assumem papéis específicos e precisam interagir estrategicamente para alcançar seus objetivos. O jogo envolve fases de noite e dia, onde durante a noite certos jogadores realizam ações secretas, e durante o dia todos discutem e votam em suspeitos.
 
 ## Grupo
-Ricardo Espíndola
-Tomás Abdias
-Rafaella Weiss
+- Ricardo Espíndola
+- Tomás Abdias
+- Rafaella Weiss
 
 ## Pré-requisitos
 
