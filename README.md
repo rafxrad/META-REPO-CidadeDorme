@@ -11,7 +11,8 @@ Antes de iniciar o deploy, é necessário garantir que os seguintes requisitos e
 - **Docker** instalado na máquina
 - **Docker Compose** instalado
 - Acesso à internet para clonar e construir os contêineres
-
+- **Docker daemon** em execução
+- 
 ## Estrutura do Docker Compose
 
 O arquivo `docker-compose.yml` define dois serviços principais:
@@ -31,16 +32,19 @@ O arquivo `docker-compose.yml` define dois serviços principais:
 ## Passos para Deploy
 
 ### 1. Clonar o repositório
-Clone o repositório onde se encontra o arquivo docker compose do jogo:
+Clone o repositório:
 ```sh
 git clone https://github.com/rafxrad/META-REPO-CidadeDorme/
-cd META-REPO-CidadeDorme/
+```
+Mude para onde se encontra o arquivo docker compose do jogo:
+```sh
+cd META-REPO-CidadeDorme
 ```
 
 ### 2. Executar o Docker Compose
 No diretório onde o arquivo `docker-compose.yml` está salvo, execute:
 ```sh
-docker-compose up -d
+docker-compose up --build
 ```
 Isso iniciará os serviços frontend e backend em contêineres.
 
