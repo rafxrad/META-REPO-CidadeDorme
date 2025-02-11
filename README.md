@@ -12,7 +12,7 @@ Antes de iniciar o deploy, é necessário garantir que os seguintes requisitos e
 - **Docker Compose** instalado
 - Acesso à internet para clonar e construir os contêineres
 - **Docker daemon** em execução
-- 
+
 ## Estrutura do Docker Compose
 
 O arquivo `docker-compose.yml` define dois serviços principais:
