@@ -73,6 +73,10 @@ Para parar e remover os contêineres criados:
 docker-compose down
 ```
 
+## Figma do Projeto
+
+https://www.figma.com/design/CcrXvQA2Zij3y5nm4x2w76/Cidade-Dorme---CITYSCAPE?node-id=0-1&t=DDdz0psF9iy9kCUE-1
+
 ## Conclusão
 Com esses passos, o jogo "Cidade Dorme" estará rodando localmente em contêineres Docker. Agora é possível interagir com a aplicação, testar funcionalidades e expandir o projeto conforme necessário.
 
